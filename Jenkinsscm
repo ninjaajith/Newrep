@@ -1,0 +1,33 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('SUN') 
+		{
+            steps {
+                echo 'Hello SUN'
+            }
+        }
+         stage('Mercury') {
+            steps {
+                echo 'Hello Mercury'
+            }
+        }
+         stage('Venus') {
+            steps {
+                echo 'Hello Venus'
+            }
+        }
+        stage('Earth') {
+            steps {
+                echo 'Hello Earth'
+            }
+        }
+        stage('Moon') {
+            steps {
+                echo 'Hello Moon'
+            }
+        }
+        
+    }
+}
